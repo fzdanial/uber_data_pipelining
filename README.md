@@ -22,8 +22,20 @@ The files that were created during this process can be seen below:
   - <a href="https://github.com/fzdanial/uber_data_pipelining/blob/main/pipelining/data_bigquery_load.py" target="_blank">Load</a>
 
 The ETL tree structure should look as follows:
+
 ![Screenshot 2023-07-04 at 5 04 34 PM](https://github.com/fzdanial/uber_data_pipelining/assets/61125794/c970d818-7f35-4d3f-9b89-27cb4ca9e255)
 
 Do note also, that for the loading part, we loaded up the data into Big Query. 
 
 ### 1.3 Big Query
+During this portion of the project, the data can be manipulated as any SQL Database can be. In conjunction to that, I have attached some <a href="https://github.com/fzdanial/uber_data_pipelining/blob/main/BQ_SQL/sample_sql_analytics.sql" target="_blank">Sample SQL Analytics</a> that can be done. 
+
+After this, we created a view table to be used for the analysis. The code for the view table can be seen <a href="https://github.com/fzdanial/uber_data_pipelining/blob/main/BQ_SQL/view_table.sql" target="_blank"> here</a>.
+
+### 1.4 Dashboarding
+For the dashboarding, we used Google Looker Studio to round out our Google Platform Data pipelining project. The sample dashboard can be seen <a href="https://lookerstudio.google.com/reporting/a5494d6f-d425-4c66-acfb-849a5c76a5c1" target="_blank"> here</a>. Note that this is the interactive version. The PDF can also be seen inside this repository. 
+
+## Final Notes
+Thank you for taking the time to check out this repository. I hope it is insightful in showing my data architecture and pipelining abilities. Again, do note that for a more detailed and insightful analysis, those can be found in other projects within my repository list. This project is merely for the pipeline showcase. 
+
+
